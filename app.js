@@ -41,7 +41,7 @@ app.all("/*", async function (req, res) {
     const userPrompt = getUserPrompt(endpoint, bodyString, existingSchema);
 
     const chatCompletion = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
