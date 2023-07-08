@@ -8,7 +8,7 @@ If LLM can generate code, why can't it generate an entire backend service for yo
 Inspired by [Backend-GPT](https://github.com/RootbeerComputer/backend-GPT), Auto-Backend is an Express.js/MongoDB Backend-Database library that generates the entire backend service on runtime, powered by an LLM. It infers business logic based on the name of the API call and connects to a hosted MongoDB database.
 
 ## Why does it matter?
-Quoting the team from Backend-GPT:
+Quoting the team from [Backend-GPT](https://github.com/RootbeerComputer/backend-GPT):
 
 > - You can iterate on your frontend without knowing exactly what the backend needs to look like.
 > - Backend gives you the wrong format? https://backend-gpt.com/chess/get_board_state() -> https://backend-gpt.com/chess/get_board_state_as_fen()
